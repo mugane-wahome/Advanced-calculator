@@ -56,6 +56,9 @@ const Calculator = () => {
                 <button onClick={() => handleButtonClick('C')}>C</button>
                 <button onClick={() => handleButtonClick('X')}>X</button>
             </div>
+            <footer className="calculator-footer">
+                Coded by Mugane
+            </footer>
         </div>
     );
 };

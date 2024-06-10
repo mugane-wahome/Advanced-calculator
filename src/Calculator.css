@@ -92,3 +92,22 @@ button:nth-child(4n+3):active {
 button:nth-child(4n+4):active {
     background-color: #7b1fa2;
 }
+
+button:nth-child(25) {
+    background-color: #e91e63;
+}
+
+button:nth-child(25):hover {
+    background-color: #d81b60;
+}
+
+button:nth-child(25):active {
+    background-color: #c2185b;
+}
+
+.calculator-footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+}
