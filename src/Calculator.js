@@ -15,6 +15,8 @@ const Calculator = () => {
             }
         } else if (value === 'C') {
             setDisplay('0');
+        } else if (value === 'X') {
+            setDisplay(display.length > 1 ? display.slice(0, -1) : '0');
         } else {
             setDisplay(display === '0' ? value : display + value);
         }
@@ -52,6 +54,7 @@ const Calculator = () => {
                 <button onClick={() => handleButtonClick('Math.E')}>e</button>
                 <button onClick={() => handleButtonClick('=')}>=</button>
                 <button onClick={() => handleButtonClick('C')}>C</button>
+                <button onClick={() => handleButtonClick('X')}>X</button>
             </div>
         </div>
     );
