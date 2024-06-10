@@ -24,7 +24,6 @@ const Calculator = () => {
 
     return (
         <div className="calculator">
-          <div><h6>Calc yangu</h6></div> 
             <input type="text" value={display} readOnly />
             <div className="buttons">
                 <button onClick={() => handleButtonClick('7')}>7</button>
