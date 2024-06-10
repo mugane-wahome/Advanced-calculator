@@ -10,7 +10,7 @@
 }
 
 input {
-    width: 100%;
+    width: 90%;
     margin-bottom: 15px;
     padding: 15px;
     font-size: 24px;
@@ -31,78 +31,48 @@ button {
     font-size: 20px;
     border: none;
     border-radius: 10px;
-    background-color: #4CAF50;
     color: white;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
+.button-7 { background-color: #f44336; }
+.button-8 { background-color: #e91e63; }
+.button-9 { background-color: #9c27b0; }
+.button-add { background-color: #673ab7; }
+.button-4 { background-color: #3f51b5; }
+.button-5 { background-color: #2196f3; }
+.button-6 { background-color: #03a9f4; }
+.button-subtract { background-color: #00bcd4; }
+.button-1 { background-color: #009688; }
+.button-2 { background-color: #4caf50; }
+.button-3 { background-color: #8bc34a; }
+.button-multiply { background-color: #cddc39; }
+.button-0 { background-color: #ffeb3b; }
+.button-dot { background-color: #ffc107; }
+.button-divide { background-color: #ff9800; }
+.button-open { background-color: #ff5722; }
+.button-close { background-color: #795548; }
+.button-sqrt { background-color: #9e9e9e; }
+.button-pow { background-color: #607d8b; }
+.button-sin { background-color: #ff4081; }
+.button-cos { background-color: #d500f9; }
+.button-tan { background-color: #651fff; }
+.button-log { background-color: #3d5afe; }
+.button-exp { background-color: #2979ff; }
+.button-pi { background-color: #00b0ff; }
+.button-e { background-color: #00e5ff; }
+.button-equal { background-color: #1de9b6; }
+.button-clear { background-color: #00e676; }
+.button-backspace { background-color: #76ff03; }
+
 button:hover {
-    background-color: #45a049;
+    opacity: 0.8;
+    background-color: greenyellow;
 }
 
 button:active {
-    background-color: #3e8e41;
-}
-
-button:nth-child(4n+1) {
-    background-color: #f44336;
-}
-
-button:nth-child(4n+2) {
-    background-color: #2196F3;
-}
-
-button:nth-child(4n+3) {
-    background-color: #FF9800;
-}
-
-button:nth-child(4n+4) {
-    background-color: #9C27B0;
-}
-
-button:nth-child(4n+1):hover {
-    background-color: #e41e26;
-}
-
-button:nth-child(4n+2):hover {
-    background-color: #1e88e5;
-}
-
-button:nth-child(4n+3):hover {
-    background-color: #fb8c00;
-}
-
-button:nth-child(4n+4):hover {
-    background-color: #8e24aa;
-}
-
-button:nth-child(4n+1):active {
-    background-color: #d32f2f;
-}
-
-button:nth-child(4n+2):active {
-    background-color: #1976d2;
-}
-
-button:nth-child(4n+3):active {
-    background-color: #f57c00;
-}
-
-button:nth-child(4n+4):active {
-    background-color: #7b1fa2;
-}
-
-button:nth-child(25) {
-    background-color: #e91e63;
-}
-
-button:nth-child(25):hover {
-    background-color: #d81b60;
-}
-
-button:nth-child(25):active {
-    background-color: #c2185b;
+    opacity: 0.6;
 }
 
 .calculator-footer {
