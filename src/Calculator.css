@@ -1,6 +1,6 @@
 /* src/Calculator.css */
 .calculator {
-    width: 350px;
+    width: 320px;
     margin: 50px auto;
     padding: 20px;
     border: 2px solid #4CAF50;
@@ -33,46 +33,16 @@ button {
     border-radius: 10px;
     color: white;
     cursor: pointer;
+    background-color: #566068;
     transition: background-color 0.3s;
 }
 
-.button-7 { background-color: #f44336; }
-.button-8 { background-color: #e91e63; }
-.button-9 { background-color: #9c27b0; }
-.button-add { background-color: #673ab7; }
-.button-4 { background-color: #3f51b5; }
-.button-5 { background-color: #2196f3; }
-.button-6 { background-color: #03a9f4; }
-.button-subtract { background-color: #00bcd4; }
-.button-1 { background-color: #009688; }
-.button-2 { background-color: #4caf50; }
-.button-3 { background-color: #8bc34a; }
-.button-multiply { background-color: #cddc39; }
-.button-0 { background-color: #ffeb3b; }
-.button-dot { background-color: #ffc107; }
-.button-divide { background-color: #ff9800; }
-.button-open { background-color: #ff5722; }
-.button-close { background-color: #795548; }
-.button-sqrt { background-color: #9e9e9e; }
-.button-pow { background-color: #607d8b; }
-.button-sin { background-color: #ff4081; }
-.button-cos { background-color: #d500f9; }
-.button-tan { background-color: #651fff; }
-.button-log { background-color: #3d5afe; }
-.button-exp { background-color: #2979ff; }
-.button-pi { background-color: #00b0ff; }
-.button-e { background-color: #00e5ff; }
-.button-equal { background-color: #1de9b6; }
-.button-clear { background-color: #00e676; }
-.button-backspace { background-color: #76ff03; }
-
 button:hover {
-    opacity: 0.8;
-    background-color: greenyellow;
+    background-color: #19d257;
 }
 
 button:active {
-    opacity: 0.6;
+    background-color: #0d47a1;
 }
 
 .calculator-footer {

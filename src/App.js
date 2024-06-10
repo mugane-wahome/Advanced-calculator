@@ -26,17 +26,18 @@ const Calculator = () => {
         <div className="calculator">
             <input type="text" value={display} readOnly />
             <div className="buttons">
-                <button className="button-7" onClick={() => handleButtonClick('7')}>7</button>
-                <button className="button-8" onClick={() => handleButtonClick('8')}>8</button>
-                <button className="button-9" onClick={() => handleButtonClick('9')}>9</button>
+            <button className="button-1" onClick={() => handleButtonClick('1')}>1</button>
+                <button className="button-2" onClick={() => handleButtonClick('2')}>2</button>
+                <button className="button-3" onClick={() => handleButtonClick('3')}>3</button>
+
                 <button className="button-add" onClick={() => handleButtonClick('+')}>+</button>
                 <button className="button-4" onClick={() => handleButtonClick('4')}>4</button>
                 <button className="button-5" onClick={() => handleButtonClick('5')}>5</button>
                 <button className="button-6" onClick={() => handleButtonClick('6')}>6</button>
                 <button className="button-subtract" onClick={() => handleButtonClick('-')}>-</button>
-                <button className="button-1" onClick={() => handleButtonClick('1')}>1</button>
-                <button className="button-2" onClick={() => handleButtonClick('2')}>2</button>
-                <button className="button-3" onClick={() => handleButtonClick('3')}>3</button>
+                <button className="button-7" onClick={() => handleButtonClick('7')}>7</button>
+                <button className="button-8" onClick={() => handleButtonClick('8')}>8</button>
+                <button className="button-9" onClick={() => handleButtonClick('9')}>9</button>
                 <button className="button-multiply" onClick={() => handleButtonClick('*')}>*</button>
                 <button className="button-0" onClick={() => handleButtonClick('0')}>0</button>
                 <button className="button-dot" onClick={() => handleButtonClick('.')}>.</button>
